@@ -1,0 +1,60 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 896
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  DesignerMasterStyle = 0
+  object btnRTTIClass: TButton
+    Position.X = 48.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'RTTIClass'
+    OnClick = btnRTTIClassClick
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 144.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 649.000000000000000000
+    Size.Height = 393.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Viewport.Width = 645.000000000000000000
+    Viewport.Height = 389.000000000000000000
+  end
+  object btnRTTIObj: TButton
+    Position.X = 48.000000000000000000
+    Position.Y = 112.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'RTTIObj'
+    OnClick = btnRTTIObjClick
+  end
+  object btnAttributes: TButton
+    Position.X = 48.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'Attributes'
+    OnClick = btnAttributesClick
+  end
+  object Button1: TButton
+    Position.X = 48.000000000000000000
+    Position.Y = 192.000000000000000000
+    TabOrder = 6
+    Text = 'default'
+    OnClick = Button1Click
+  end
+end
